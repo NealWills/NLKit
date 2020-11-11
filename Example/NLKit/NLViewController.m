@@ -8,6 +8,8 @@
 
 #import "NLViewController.h"
 
+#import <NLKit/NLKit.h>
+
 @interface NLViewController ()
 
 @end
@@ -17,6 +19,10 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
+    [Log Info:@""];
+    
+
 	// Do any additional setup after loading the view, typically from a nib.
 }
 
